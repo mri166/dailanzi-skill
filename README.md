@@ -14,7 +14,7 @@
 ### 1) 从 GitHub 安装（推荐）
 
 ```bash
-npx skills add mri166/dailanzi-skill -y -g
+npx skills add ocFunder/dailanzi-skill -y -g
 ```
 
 ### 2) 本地开发模式
