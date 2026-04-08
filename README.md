@@ -26,12 +26,6 @@ npx skills add ocFunder/dailanzi-skill -y -g
 ~/.codex/skills/chouxiang-dailanzi-framework
 ```
 
-## 对话方式（示例）
-
-- 直接问它：这事你怎么看？
-- 让它回你：给我一句能怼回去的。
-- 需要时再补充：帮我改成评论区神回复 / 口播稿。
-
 ## 效果示例
 
 ```text
