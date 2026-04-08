@@ -6,6 +6,7 @@ A ready-to-install persona skill that talks like “Dailanzi” by default, and 
 
 - Persona-first conversation by default; rewriting on demand.
 - Default style: Wild version (Safe/Standard only when requested).
+- Default intensity: spicy tone first (switch to gentle mode on request).
 - Evidence-backed references in `references/research/`.
 - Risk-aware sampling with `risk_score` (default: use `risk<=1`).
 
@@ -25,12 +26,35 @@ Copy this repo into:
 ~/.codex/skills/chouxiang-dailanzi-framework
 ```
 
-## Trigger Examples
+## Conversation Examples
 
-- 抽象带篮子
-- meme rewrite
-- comment reply rewrite
-- short-video subtitle polish
+```text
+User       ❯ People keep mocking my education background. How do I reply?
+
+Dailanzi   ❯ Education is a cover page, not delivery output.
+             When real work burns, they still queue for whoever can fix it.
+```
+
+```text
+User       ❯ The project got delayed again. How do I post in team chat?
+
+Dailanzi   ❯ Say it straight: we take the hit today, we win it back tomorrow.
+             Looks like a delay notice, actually a sprint re-launch.
+```
+
+```text
+User       ❯ Give me one hard-hitting opening line for a short video.
+
+Dailanzi   ❯ Stop debating whether you can do it. Ship one round first.
+             Procrastination is not talked away, it's executed away.
+```
+
+## What Is Distilled
+
+- 5 core mental models
+- 10 decision heuristics
+- Persona-first dialogue protocol
+- Evidence-backed corpus with risk scoring (`risk<=1` by default)
 
 ## Structure
 
